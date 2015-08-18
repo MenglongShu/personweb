@@ -1,0 +1,19 @@
+{
+  "name": "personweb",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenglongShu/personweb.git"
+  },
+  "author": "menglong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenglongShu/personweb/issues"
+  },
+  "homepage": "https://github.com/MenglongShu/personweb#readme"
+}
