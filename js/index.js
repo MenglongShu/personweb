@@ -12,24 +12,44 @@ myApp.config(function ($routeProvider) {
     
     .when('/about', {
         templateUrl: 'pages/about.html',
-        controller: 'secondController'
+        controller: 'aboutCtrl'
     })
     
     .when('/education', {
         templateUrl: 'pages/education.html',
-        controller: 'secondController'
+        controller: 'eduCtrl'
     })
     .when('/experiences', {
         templateUrl: 'pages/experiences.html',
-        controller: 'secondController'
+        controller: 'expCtrl'
     })
     .when('/projects', {
         templateUrl: 'pages/projects.html',
-        controller: 'secondController'
+        controller: 'proCtrl'
     })
 });
 
 myApp.controller('homeCtrl', ['$scope', '$log', function($scope, $log) {
+    
+    $scope.name = 'Main';
+    
+}]);
+myApp.controller('aboutCtrl', ['$scope', '$log', function($scope, $log) {
+    
+    $scope.name = 'Main';
+    
+}]);
+myApp.controller('eduCtrl', ['$scope', '$log', function($scope, $log) {
+    
+    $scope.name = 'Main';
+    
+}]);
+myApp.controller('expCtrl', ['$scope', '$log', function($scope, $log) {
+    
+    $scope.name = 'Main';
+    
+}]);
+myApp.controller('proCtrl', ['$scope', '$log', function($scope, $log) {
     
     $scope.name = 'Main';
     
