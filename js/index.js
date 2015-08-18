@@ -10,16 +10,23 @@ myApp.config(function ($routeProvider) {
         controller:'homeCtrl'
     })
     
-    .when('/second', {
-        templateUrl: 'pages/second.html',
+    .when('/about', {
+        templateUrl: 'pages/about.html',
         controller: 'secondController'
     })
     
-    .when('/second/:num', {
-        templateUrl: 'pages/second.html',
+    .when('/education', {
+        templateUrl: 'pages/education.html',
         controller: 'secondController'
     })
-    
+    .when('/experiences', {
+        templateUrl: 'pages/experiences.html',
+        controller: 'secondController'
+    })
+    .when('/projects', {
+        templateUrl: 'pages/projects.html',
+        controller: 'secondController'
+    })
 });
 
 myApp.controller('homeCtrl', ['$scope', '$log', function($scope, $log) {
