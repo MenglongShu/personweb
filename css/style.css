@@ -1,0 +1,49 @@
+.menudemoBasicUsage .md-menu-demo {
+  padding: 24px; }
+.menudemoBasicUsage .menu-demo-container {
+  min-height: 200px; }
+  .menue{
+  	list-style-type:none;
+  	list-style:none;
+  	padding-left: 0;
+  }
+  .menue li{
+  	float:left;
+  	padding:4px;
+  	border-right:1px solid grey;
+
+
+
+  }
+  .all{
+background-color: #EFEFE7;
+
+
+  }
+
+  .profile{
+  	/*min-width:100px;*/
+width: 100%;
+
+  }
+
+  .contact{
+  	background-color: #E1E1D5;
+
+
+  }
+
+
+
+}
+.upper {
+	width: 100px;
+	
+   
+   
+}
+
+.paddingblock{
+	padding-left:130px; 
+	padding-right:130px;
+}
